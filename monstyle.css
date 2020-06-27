@@ -1,0 +1,19 @@
+body{
+  display: flex;
+}
+#navbar{
+  width: 400px;
+  background-color: #eee;
+  color: black; 
+}
+#navbar a{
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width:600px){
+	body{
+		display: block;
+	}
+} 
